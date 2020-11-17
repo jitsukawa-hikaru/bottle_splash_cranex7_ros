@@ -86,11 +86,11 @@ def main():
     #ボトルを振る動作  
     target_joint_values = arm.get_current_joint_values()
     for i in range(4):
-      joint_angle1 = math.radians(-60)
-      joint_angle2 = math.radians(-90)
+      joint_angle1 = math.radians(-30)
+      joint_angle2 = math.radians(-55)
       for j in range(0, 7, 6):
-        target_joint_values[1] = joint_angle1
-        target_joint_values[3] = joint_angle2
+        target_joint_values[0] = joint_angle1
+        target_joint_values[6] = joint_angle2
         arm.set_joint_value_target(target_joint_values)
         arm.go()
         move_max_velocity()
@@ -99,11 +99,11 @@ def main():
         print ", current_joint_values (degrees):",
         print math.degrees( arm.get_current_joint_values()[j] )
         print("shake!!shake!!")
-      joint_angle1 = math.radians(60)
-      joint_angle2 = math.radians(90)
+      joint_angle1 = math.radians(30)
+      joint_angle2 = math.radians(55)
       for j in range(0, 7, 6):
-        target_joint_values[1] = joint_angle1
-        target_joint_values[3] = joint_angle2
+        target_joint_values[0] = joint_angle1
+        target_joint_values[6] = joint_angle2
         arm.set_joint_value_target(target_joint_values)
         arm.go()
         move_max_velocity()
