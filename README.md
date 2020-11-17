@@ -42,7 +42,7 @@ roslaunch G1_cranex7_ROS crane_x7_with_table.launch
    
 ## 実行方法  
   
-・bottle_pick.py
+・bottle_pick.py  
 中間発表で発表したCRANE_X7にボトルを振らせるコードです。  
 ボトルを設置した後、crane_x7_examples下にあるbottle_pick.pyを実行します。  
   
@@ -50,8 +50,8 @@ roslaunch G1_cranex7_ROS crane_x7_with_table.launch
 ```sh
 rosrun G1_cranex7_ROS bottle_pick.py 
 ```  
-  
-ボトルは以下のように設置してください。
+    
+ボトルは以下のように設置してください。  
 <img src=https://github.com/robotcreating2020-1/images/blob/master/2020-11-15_1.png width=500px />  
   
 アームがボトルをつかんだ後、ボトルを6回ほど振り、机に置きます。  
