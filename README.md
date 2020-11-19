@@ -48,6 +48,7 @@ roslaunch G1_cranex7_ROS crane_x7_with_table.launch
   
 
 ```sh
+roslaunch G1_cranex7_ROS crane_x7_with_table.launch
 rosrun G1_cranex7_ROS bottle_pick.py 
 ```  
     
