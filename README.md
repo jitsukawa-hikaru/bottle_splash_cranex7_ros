@@ -1,4 +1,4 @@
-# g1_cranex7_ros
+# bottle_splash_cranex7_ros
 
 設計製作論3　1班の最終発表用のCRANE-x7のROSパッケージです。  
   
@@ -24,7 +24,7 @@
 シミュレータを使う場合、以下のコードを実行します。  
 
 ```sh
-roslaunch g1_cranex7_ros crane_x7_with_table.launch
+roslaunch bottle_splash_cranex7_ros crane_x7_with_table.launch
 ```  
 ---
 
@@ -48,7 +48,7 @@ roslaunch g1_cranex7_ros crane_x7_with_table.launch
   
 
 ```sh
-rosrun g1_cranex7_ros bottle_pick.py 
+rosrun bottle_splash_cranex7_ros bottle_pick.py 
 ```  
     
 ボトルは以下のように設置してください。  
